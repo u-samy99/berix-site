@@ -1,0 +1,475 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    scroll-behavior: smooth;
+  }
+  
+  .navbar {
+
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: #ffffff;
+    color: rgb(7, 65, 115);;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+  }
+
+ .flag-container {
+  position: absolute;
+  top: 10px;
+  right: 30px;
+}
+
+.flag-icon {
+  width: 36px;
+  height: auto;
+  cursor: pointer;
+  border-radius: 3px;
+  transition: transform 0.2s ease;
+}
+
+.flag-icon:hover {
+  transform: scale(1.1);
+}
+
+
+  .navbar ul {
+    font-size: 23px;
+  }
+  
+  .navbar p2 {
+    font-size: 23px;
+    
+  }
+  
+
+  .div-parts img {
+    max-width: 20%;
+
+  }
+
+  .blue-bar {
+    font-size: 10px;
+    background-color: rgb(27, 95, 185);
+    align-items: center;
+    justify-content: center;
+   
+}
+  .blue-bar p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #f0f8ff;
+    padding-top: 30px;
+    font-size: 25px;
+
+  }
+   
+
+  .navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    margin: 0;
+    margin-right: 100px;
+    padding: 0;
+  }
+  
+  .navbar li {
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  
+  .navbar li:hover {
+    color: #00bfff;
+  }
+  
+  .section {
+    padding-top: 130px;            /* réduis un peu l'espace intérieur en haut */
+    min-height: auto;
+    scroll-margin-top: 200px;     /* ➤ augmente légèrement pour compenser le décalage */
+  }
+ 
+  
+  .home {
+    background: #f0f8ff;
+  }
+  
+  .about {
+    background: #e6f0ff;
+  }
+  
+  .products {
+    background: #f5f5f5;
+  }
+  
+  
+  .logo {
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  .image-row {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;  /* Stretch both images to equal height */
+    gap: 1rem;
+    margin-top: 20px;
+    flex-wrap: wrap;
+  }
+  
+  
+  .image-row img {
+    max-width: 60%;
+    height: auto;
+    border-radius: 4px;
+  }
+
+  .home-description {
+    display: flex;                 /* ➤ Enables side-by-side layout */
+    gap: 2rem;                     /* ➤ Space between image and text */
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+    font-size: 1rem;
+    color: #333;
+    flex-wrap: wrap;              /* ➤ Makes it responsive */
+  }
+      
+      .home-description h3 {
+        font-size: 1.2rem;
+        font-weight: 600;
+        color: #222;
+        margin-bottom: 1rem;
+      }
+
+      .home-description img {
+        width: 40%;
+        max-width: 500px;
+        border-radius: 6px;
+        object-fit: cover;
+      }
+      .home-description h3,
+      .home-description p {
+        flex: 1 1 100%;
+        max-width: 55%;
+        text-align: left;
+      }
+    
+      .section-about {
+        display: flex;
+        align-items: stretch;  /* ✅ Force both sides to match height */
+        gap: 2rem;
+        max-width: 1300px;
+        margin: 2rem auto;
+        padding: 0 1rem;
+        padding-top: 140px;
+        scroll-margin-top: 220px;
+        font-size: 1rem;
+        color: #333;
+        flex-wrap: wrap;
+      }
+      
+      .section-about img {
+        width: 40%;
+        height: 50%;
+        padding-top: 50px;
+        padding-left: 40px;
+        
+        border-radius: 10px;
+        object-fit: cover;
+        margin-left: 100px;
+        margin-top: 100px;
+        flex-wrap: wrap;
+      }
+      
+      .about-text {
+        flex: 1;
+        max-width: 55%;
+        text-align: left;
+      }
+      
+      .about-text h2 {
+        margin-bottom: 1.5rem;
+      }
+      
+      .about-text p {
+        margin-bottom: 1.2rem;
+        line-height: 1.6;
+      }
+      
+      .products-title {
+        font-size: 32px;
+        font-weight: bold;
+        color: white;
+        background-color: #0d2f56;
+        padding: 1rem 2rem;
+        text-align: center;
+      }
+      .product-text {
+        flex: 1 1 50%;
+        font-size: 16px;
+        color: #333;
+        line-height: 1.7;
+      }
+
+      .product-text ul {
+        margin-top: 2rem;
+        padding-left: 1rem;
+      }
+
+      .product-text li {
+        margin-bottom: 1rem;
+        font-weight: 500;
+        font-size: 16px;
+        color: #222;
+      }
+      
+      .products-subtitle {
+        font-size: 20px;
+        font-weight: 500;
+        margin: 2rem 0 1rem 0;
+        color: #0d08a5;
+        padding-left: 50px;
+      }
+      
+      .product-main {
+        display: flex;
+        justify-content: space-between;
+        align-items: stretch;
+        flex-wrap: wrap;
+        max-width: 1400px;
+        margin: 3rem auto;
+        padding: 1rem 2rem;
+        gap: 2rem;
+        background-color: #ffffff;
+      }
+      .product-images {
+     
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 1.2rem;
+      }
+
+      .product-batiment {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 2rem;
+      }
+   
+      
+      .product-batiment img {
+        width: 80%;
+        max-width: 500px;
+
+        height: auto;
+        object-fit: cover;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      }
+
+      .product-text {
+        flex: 1;
+        width: 60%;
+        padding-left: 30px;
+        margin: 20px;
+      }
+      
+      .product-images img {
+        width: 80%;
+        object-fit: cover;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.08);
+      }
+      .military-part {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 2rem;
+        font-family: Arial, sans-serif;
+        color: #000;
+      }
+      
+      .military-part p {
+        font-size: 1.1rem;
+        font-weight: 500;
+      }
+      
+      .military-part strong {
+        font-weight: bold;
+      }
+      
+      /* 👇 Make the image larger and reduce vertical spacing */
+      .military-part img {
+        width: 100%;
+        max-width: 1400px;
+        height: auto;
+        display: block;
+        margin: 1.2rem auto 1rem auto; /* top/bottom margins reduced */
+        border-radius: 1rem;
+      }
+      
+      
+      .product-specs-row {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        gap: 2rem;
+        margin-top: 2rem;
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      
+      .product-specs {
+        flex: 1 1 50%;
+     
+        max-width: 55%;
+        text-align: left;
+      }
+      
+      .product-specs h4 {
+        font-size: 18px;
+        font-weight: 600;
+        margin-bottom: 1rem;
+      }
+      
+      .product-specs ul {
+        padding-left: 1.2rem;
+        color: #555;
+        line-height: 1.6;
+      }
+      
+      .product-specs-images {
+        width: 100%;
+        max-width: 1400px;
+        height: auto;
+        display: block;
+        margin: 1.2rem auto 1rem auto; /* top/bottom margins reduced */
+        border-radius: 1rem;
+        justify-content: center;
+        align-items: center;
+        padding-left: 100px;
+      }
+      
+      .recent-pic img {
+        width: 100%;
+        max-width: 1200px;
+        height: auto;
+        display: block;
+        margin: 1.2rem auto 1rem auto; /* top/bottom margins reduced */
+        border-radius: 1rem;
+        justify-content: center;
+        align-items: center;
+      }
+
+      
+      .product-specs-images img {
+        width: 100%;
+        max-width: 450px;
+        border-radius: 8px;
+        object-fit: cover;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      }
+      
+      .why-choose-row {
+        display: flex;
+        justify-content: space-between;
+        align-items: stretch;
+        gap: 2rem;
+        flex-wrap: wrap;
+        max-width: 1200px;
+        margin: 2rem auto;
+        padding: 1rem;
+      }
+      
+      .why-text {
+        flex: 1 1 55%;
+        min-width: 300px;
+      }
+      
+      .why-text h2 {
+        font-size: 24px;
+        margin-bottom: 1.5rem;
+      }
+      
+      .why-text ul {
+        list-style: none;
+        padding-left: 0;
+      }
+      
+      .why-text li {
+        font-size: 16px;
+        font-weight: 500;
+        color: #333;
+        margin-bottom: 1rem;
+      }
+      
+      .why-image {
+        flex: 1 1 40%;
+        max-width: fit-content;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .why-image img {
+        width: 100%;
+        max-width: 450px;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(13, 0, 255, 0.1);
+      }
+      
+      
+      .contact,
+      .contact.section {
+        background: #0d539b;
+        color: #fff;
+        padding: 3rem 1rem;
+        scroll-margin-top: 150px;
+        text-align: center;
+        overflow: hidden;
+      }
+      
+      .contact-grid {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        gap: 2rem;
+        flex-wrap: wrap;
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+      
+      .contact-column {
+        flex: 1 1 250px;
+        text-align: center;
+      }
+      
+      .contact-column h3 {
+        font-size: 1.3rem;
+        font-weight: bold;
+        margin-bottom: 1rem;
+      }
+      
+      .contact-column p {
+        font-size: 1rem;
+        margin: 0.5rem 0;
+      }
+      
+      /* Footer */
+      .footer {
+        background-color: #06386e;
+        color: #fff;
+        text-align: center;
+        padding: 1rem 0;
+        font-size: 0.9rem;
+        margin-top: 0;
+      }
+      
