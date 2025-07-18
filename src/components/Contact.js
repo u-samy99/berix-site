@@ -25,7 +25,7 @@ const Contact = () => (
     </section>
 
     <footer className="footer">
-      <p>© {new Date().getFullYear()} BERIX. All rights reserved.</p>
+      <p>© 2017 BERIX. All rights reserved.</p>
     </footer>
   </>
 );

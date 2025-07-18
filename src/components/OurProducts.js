@@ -38,7 +38,7 @@ const OurProducts = () => (
 
       <div className="product-images">
         <img src="images/tunnelDiag.jpeg" alt="tunnel diagram" />
-        <img src="images/real-tunnel.png" alt="real wind tunnel" />
+        <img src="images/real-tunnel.PNG" alt="real wind tunnel" />
       </div>
     </div>
 
@@ -98,7 +98,7 @@ const OurProducts = () => (
   </strong>
 </p>
 
-<img src="images/military2.jpg" alt="Militaryx" />
+<img src="images/Military2.jpg" alt="Militaryx" />
 
 
     </div>
@@ -115,7 +115,7 @@ const OurProducts = () => (
 <h2  className="products-title">RECENT PROJECTS</h2>
 
 <div className="recent-pic">
-<img src="images/recentProjects.png" alt="bla" />
+<img src="images/recentProjects.PNG" alt="bla" />
 </div>
 
 <div className="div-parts">
