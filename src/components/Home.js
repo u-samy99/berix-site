@@ -14,23 +14,23 @@ const Home = () => (
     </div>
 
     <div className="image-row">
-      <img src="/Images/homePic1.png" alt="" />
-      <img src="/Images/homePic2.png" alt="" />
+      <img src="images/homePic1.png" alt="" />
+      <img src="images/homePic2.png" alt="" />
     </div>
 
     <div> <br/> </div>
 
     <div className="div-parts">
-    <img src="/Images/lineDiv.png" alt="" />
-    <img src="/Images/lineDiv.png" alt="" />
-    <img src="/Images/lineDiv.png" alt="" />
-    <img src="/Images/lineDiv.png" alt="" />
-    <img src="/Images/lineDiv.png" alt="" />
+    <img src="images/lineDiv.png" alt="" />
+    <img src="images/lineDiv.png" alt="" />
+    <img src="images/lineDiv.png" alt="" />
+    <img src="images/lineDiv.png" alt="" />
+    <img src="images/lineDiv.png" alt="" />
     </div>
 
     <div className="home-description">
     
-        <img src="/Images/pic3.png" alt="home sky" />
+        <img src="images/pic3.png" alt="home sky" />
   <h3>
     BERIX is the most experienced company to support you in your vertical wind tunnel construction projects.
     Our teams work to provide you with turnkey projects from construction through integration and commissioning of the selected system.

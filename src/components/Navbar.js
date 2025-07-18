@@ -9,12 +9,13 @@ function scrollToSection(id) {
 const Navbar = () => (
   
   <nav className="navbar">
+
     <div className="flag-container">
-      <img src="/Images/en.png" alt="USA Flag" className="flag-icon" />
+      <img src="images/en.png" alt="USA Flag" className="flag-icon" />
     </div>
 
-    {/* <img src="/Images/berixTop.jpg" alt=""/> */}
-   <img src="/Images/LogoBerix.jpeg" alt="Logoo" width='150px' height='150px' /> 
+    {/* <img src="images/berixTop.jpg" alt=""/> */}
+   <img src="images/LogoBerix.jpeg" alt="Logoo" width='150px' height='150px' /> 
 
 
     

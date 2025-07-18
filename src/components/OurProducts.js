@@ -37,8 +37,8 @@ const OurProducts = () => (
       </div>
 
       <div className="product-images">
-        <img src="/Images/tunnelDiag.jpeg" alt="tunnel diagram" />
-        <img src="/Images/real-tunnel.png" alt="real wind tunnel" />
+        <img src="images/tunnelDiag.jpeg" alt="tunnel diagram" />
+        <img src="images/real-tunnel.png" alt="real wind tunnel" />
       </div>
     </div>
 
@@ -65,17 +65,17 @@ const OurProducts = () => (
   </div>
 
   <div className="product-image">
-    <img src="/Images/pic5.png" alt="Batiments" />
+    <img src="images/pic5.png" alt="Batiments" />
   </div>
 </div>
 
 
 <div className="div-parts">
-    <img src="/Images/lineDiv.png" alt="Indoor skydive 2" />
-    <img src="/Images/lineDiv.png" alt="Indoor skydive 2" />
-    <img src="/Images/lineDiv.png" alt="Indoor skydive 2" />
-    <img src="/Images/lineDiv.png" alt="Indoor skydive 2" />
-    <img src="/Images/lineDiv.png" alt="Indoor skydive 2" />
+    <img src="images/lineDiv.png" alt="Indoor skydive 2" />
+    <img src="images/lineDiv.png" alt="Indoor skydive 2" />
+    <img src="images/lineDiv.png" alt="Indoor skydive 2" />
+    <img src="images/lineDiv.png" alt="Indoor skydive 2" />
+    <img src="images/lineDiv.png" alt="Indoor skydive 2" />
     </div>
 
     <div className="military-part">
@@ -98,32 +98,32 @@ const OurProducts = () => (
   </strong>
 </p>
 
-<img src="/Images/military2.jpg" alt="Militaryx" />
+<img src="images/military2.jpg" alt="Militaryx" />
 
 
     </div>
 
 
     <div className="div-parts">
-    <img src="/Images/lineDiv.png" alt="Indoor skydive 2" />
-    <img src="/Images/lineDiv.png" alt="Indoor skydive 2" />
-    <img src="/Images/lineDiv.png" alt="Indoor skydive 2" />
-    <img src="/Images/lineDiv.png" alt="Indoor skydive 2" />
-    <img src="/Images/lineDiv.png" alt="Indoor skydive 2" />
+    <img src="images/lineDiv.png" alt="Indoor skydive 2" />
+    <img src="images/lineDiv.png" alt="Indoor skydive 2" />
+    <img src="images/lineDiv.png" alt="Indoor skydive 2" />
+    <img src="images/lineDiv.png" alt="Indoor skydive 2" />
+    <img src="images/lineDiv.png" alt="Indoor skydive 2" />
     </div>
 
 <h2  className="products-title">RECENT PROJECTS</h2>
 
 <div className="recent-pic">
-<img src="/Images/recentProjects.png" alt="bla" />
+<img src="images/recentProjects.png" alt="bla" />
 </div>
 
 <div className="div-parts">
-    <img src="/Images/lineDiv.png" alt="" />
-    <img src="/Images/lineDiv.png" alt="" />
-    <img src="/Images/lineDiv.png" alt="" />
-    <img src="/Images/lineDiv.png" alt="" />
-    <img src="/Images/lineDiv.png" alt="" />
+    <img src="images/lineDiv.png" alt="" />
+    <img src="images/lineDiv.png" alt="" />
+    <img src="images/lineDiv.png" alt="" />
+    <img src="images/lineDiv.png" alt="" />
+    <img src="images/lineDiv.png" alt="" />
     </div>
 
 <div><br /></div>
@@ -146,17 +146,17 @@ const OurProducts = () => (
   </div>
 
   <div className="why-image">
-    <img src="/Images/fly-room.jpeg" alt="Man flying in wind tunnel" />
+    <img src="images/fly-room.jpeg" alt="Man flying in wind tunnel" />
   </div>
 </div>
 
 
 <div className="div-parts">
-    <img src="/Images/lineDiv.png" alt="Indoor skydive 2" />
-    <img src="/Images/lineDiv.png" alt="Indoor skydive 2" />
-    <img src="/Images/lineDiv.png" alt="Indoor skydive 2" />
-    <img src="/Images/lineDiv.png" alt="Indoor skydive 2" />
-    <img src="/Images/lineDiv.png" alt="Indoor skydive 2" />
+    <img src="images/lineDiv.png" alt="Indoor skydive 2" />
+    <img src="images/lineDiv.png" alt="Indoor skydive 2" />
+    <img src="images/lineDiv.png" alt="Indoor skydive 2" />
+    <img src="images/lineDiv.png" alt="Indoor skydive 2" />
+    <img src="images/lineDiv.png" alt="Indoor skydive 2" />
     </div>
 
   </section>

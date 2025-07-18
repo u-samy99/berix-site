@@ -31,7 +31,7 @@ const AboutUs = () => (
       </p>
     </div>
 
-    <img src="/Images/pic4.PNG" alt="workers"  />
+    <img src="images/pic4.PNG" alt="workers"  />
 
   </section>
 );
