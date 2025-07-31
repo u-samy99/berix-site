@@ -472,4 +472,139 @@ body {
         font-size: 0.9rem;
         margin-top: 0;
       }
-      
+/*      
+@media (max-width: 431px) {
+  .navbar img {
+    width: 100px;
+    height: 100px;
+
+  }
+
+
+  .navbar p2{
+    visibility: hidden;
+    
+  }
+
+}*/
+/* Hide mobile menu on desktop */
+.mobile-menu-button {
+  display: none;
+}
+
+/* Hide desktop nav on mobile */
+@media (max-width: 768px) {
+    /* Center all sections on mobile */
+  .home-description,
+  .section-about,
+  .product-main,
+  .product-text p,
+  .products-subtitle,
+  .product-specs {
+    flex-direction: column !important;
+    align-items: center !important;
+    text-align: center;
+    
+  }
+  
+  
+    .about-text,
+  .home-description h3,
+  .home-description p,
+  .product-text p,
+  .product-specs {
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  /* Fix for navbar overflow */
+  body {
+    overflow-x: hidden;
+  }
+  
+
+  .desktop-menu {
+    display: none;
+  }
+  .hero-text {
+    display: absolute; 
+    margin-top: 50px;
+  }
+
+  .mobile-menu-button {
+     display: block;
+    position: absolute;
+    top: 1rem;
+    left: 22rem;
+    z-index: 1000;
+    font-size: 20px;
+    background-color: lightblue;
+  }
+  .logoo {
+    padding-bottom: 10px;
+    padding-left: 0px;
+  }
+  .flag-container{
+    padding-top: 30px;
+    padding-right: 120px;
+    padding-top: 5px;
+  }
+  
+  /* Make sure images scale and center */
+ .home-description img {
+  display: block !important;
+  width: 300px !important;
+  height: 300px !important;
+  object-fit: contain;
+  margin: 1rem auto;
+  max-width: 100%;
+}
+  .section-about img,
+  .product-image img{
+    display: none;
+  }
+  .product-images img{
+    align-items: center;
+    justify-content: center;
+    padding-left: 50px;
+  }
+ .blue-bar {
+  display: flex;
+  justify-content: center;      /* Center text horizontally */
+  align-items: center;          /* Center text vertically */
+  height: 80px;
+  background-color: #1b5fb9;
+  padding: 0 1rem;
+}
+
+.blue-bar p {
+  font-size: 17px;
+  font-weight: 300;
+  color: #f0f8ff;
+  text-align: center;
+  padding-bottom: 28px;
+ 
+}
+
+.military-part
+{
+   
+    max-width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+
+}
+.product-text{
+  padding: 15px;
+  max-width: 100%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+}
