@@ -13,7 +13,7 @@ const Contact = () => (
         <div className="contact-column">
           <h3>📧 Email us</h3>
           <p>by email directly:</p>
-          <p><strong>sales@berixllc.com</strong></p>
+          <p><strong>sales@berix-llc.com</strong></p>
         </div>
 
         <div className="contact-column">
